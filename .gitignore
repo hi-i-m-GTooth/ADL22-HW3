@@ -1,0 +1,7 @@
+data
+data.zip
+ckip_data.zip
+model_config
+tw_rouge/tw_rouge/__pycache__/
+*test*
+model.zip
