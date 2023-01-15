@@ -3,7 +3,7 @@
 ## Reproduce 
 ### Dataset & pre-preprocess
 ```
-python3.8 prepreprocess.py
+./download_data.sh
 ```
 ### Training
 Models will be stored in `results/50ep_warm`

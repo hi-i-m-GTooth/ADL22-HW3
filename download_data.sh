@@ -5,7 +5,7 @@ unzip data.zip
 #mkdir ~/.cache/ckiptagger
 #mv data.zip ~/.cache/ckiptagger/data.zip
 
-python prepreprocess.py
+python3.8 prepreprocess.py
 
 #gdown 1efHsY16pxK0lBD2gYCgCTnv1Swstq771 -O ckip_data.zip
 #mkdir ckip_data
