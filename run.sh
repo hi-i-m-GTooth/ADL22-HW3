@@ -7,8 +7,8 @@ accelerate launch infer_summary.py \
     --text_column "maintext" \
     --summary_column "title" \
     --source_prefix "summarize: " \
-    --per_device_train_batch_size 32 \
-    --per_device_eval_batch_size 32 \
+    --per_device_train_batch_size 16 \
+    --per_device_eval_batch_size 16 \
     --max_length 512 \
     --seed 1231 \
     --test_file "_data/input.json" \
